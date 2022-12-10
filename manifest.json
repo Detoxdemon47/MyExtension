@@ -1,0 +1,35 @@
+{
+    "name":"Detox-Demon Colors",
+    "description":"Colors",
+    "version":"0.0.1",
+    "manifest_version": 3,
+
+    "background":{
+        "service_worker": "index.js"
+    },
+    "action":{
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "giga.png",
+            "32": "giga.png",
+
+            "48": "giga.png",
+
+            "128": "giga.png"
+
+        }
+    },
+    "icons": {
+        "16": "giga.png",
+        "32": "giga.png",
+
+        "48": "giga.png",
+
+        "128": "giga.png"
+    },
+    "permissions": ["storage","activeTab","scripting"],
+    "chrome_url_overrides":{
+        "newtab": "newtab.html"
+    }
+
+}
